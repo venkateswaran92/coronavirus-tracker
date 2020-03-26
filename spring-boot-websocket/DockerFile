@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD SpringBootDoker-0.0.1.jar SpringBootDoker-0.0.1.jar
+ADD spring-boot-websocket-0.0.1 spring-boot-websocket-0.0.1
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","SpringBootDoker-0.0.1.jar"]
+ENTRYPOINT ["java","-jar","spring-boot-websocket-0.0.1"]
